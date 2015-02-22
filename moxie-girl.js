@@ -13,10 +13,10 @@ angular
 		$stateProvider
 			.state('app', {
 				url: '/',
-				controller: 'MainController',
 				views: {
 					'body': {
-						templateUrl: 'templates/main-page.html',
+						controller: 'MainController',
+						templateUrl: 'templates/main-page.html'
 					}
 				}
 			})
